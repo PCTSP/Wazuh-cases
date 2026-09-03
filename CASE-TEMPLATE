@@ -1,0 +1,91 @@
+# CASE-XXX — [Título da Investigação]
+
+## 1. Case Overview
+
+| Field | Value |
+|---|---|
+| Case ID | CASE-XXX |
+| Date | YYYY-MM-DD |
+| Category | [Authentication / FIM / Process / PowerShell / etc.] |
+| Severity | [Low / Medium / High / Critical] |
+| Status | [Open / Investigating / Closed] |
+| Classification | [Benign / Suspicious / Malicious / Inconclusive] |
+| Endpoint | [Hostname] |
+| Detection Source | Wazuh |
+
+---
+
+## 2. Objective
+
+Describe what this investigation is intended to identify or determine.
+
+---
+
+## 3. Environment
+
+Describe the relevant laboratory infrastructure.
+
+Example:
+
+- Wazuh Manager
+- Wazuh Dashboard
+- Windows endpoint
+- Wazuh Agent
+- Relevant versions
+- Relevant IPs, if appropriate
+
+---
+
+## 4. Initial Hypothesis
+
+Describe the initial hypothesis before analyzing the evidence.
+
+Example:
+
+> Multiple authentication failures may indicate password-guessing activity.
+
+Do not present the hypothesis as fact.
+
+---
+
+## 5. Configuration
+
+Document only the configurations relevant to this case.
+
+Examples:
+
+- Wazuh rule
+- Windows audit policy
+- FIM configuration
+- Log source
+- Detection query
+
+---
+
+## 6. Test / Trigger
+
+Explain how the event was generated or observed.
+
+If the event was naturally observed:
+
+> The event was observed during routine laboratory monitoring.
+
+If a controlled test was performed:
+
+> A controlled test was performed in the isolated laboratory environment.
+
+---
+
+## 7. Event Generated
+
+Document the relevant event.
+
+Example:
+
+```text
+Event ID:
+Rule ID:
+Timestamp:
+User:
+Source:
+Process:
